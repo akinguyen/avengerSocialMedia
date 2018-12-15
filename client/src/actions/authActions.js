@@ -3,7 +3,7 @@ import jwt_decode from "jwt-decode";
 import setAuthToken from "../utils/setAuthToken";
 export const registerUser = (user, history) => dispatch => {
   axios
-    .post("http://localhost:5000/api/users/register", user)
+    .post("/api/users/register", user)
     .then(res => {
       dispatch({
         type: "GET_ERRORS",
@@ -21,7 +21,7 @@ export const registerUser = (user, history) => dispatch => {
 
 export const loginUser = user => dispatch => {
   axios
-    .post("http://localhost:5000/api/users/login", user)
+    .post("/api/users/login", user)
     .then(res => {
       const { token } = res.data;
 
