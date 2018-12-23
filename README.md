@@ -4,7 +4,7 @@
   <img width="460" height="300" src="https://cdn-images-1.medium.com/max/1200/1*dqvlaszRLvoPmARpOlLN9A.png">
 </p>
 
-The Avenger Social Media This is my first full stack website project that utilizes ReactJS, MongoDB, Express, and NodeJS.
+The Avenger Social Media is my first full stack website project that utilizes ReactJS, MongoDB, Express, and NodeJS.
 
 This website is similar to StackOverFlow where the user can create their developer profile. The profile will include their education, their experience, their social medias and their skills.
 
